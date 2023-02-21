@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f8f9fa ;
+}
+
+.flex{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    font-size:14px;
+}
+
+
+
+
+.nav{
+    height: 63px;
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7); */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    color:white;
+    align-items: center;
+    padding: 10px 10px;
+    padding-right: 10px;
+    column-gap:16px;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1030;
+
+}
+.vit-logo img{
+vertical-align: middle;
+height: 50px;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.outer-container{
+    width:100vw;
+    height: 100vh;
+    
+}
+
+.container{
+
+    height:400px ;
+    width: 500px;
+    background-color: white;
+    /* background-color: white;
+    margin:0 auto;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 20px 40px; */
+
+    margin:0 auto;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    /* padding: 20px 40px; */
+    
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color:#0d6efd ;
+    border-radius: 2.5px 2.5px 0px 0px;
+
+}
+.text{
+    font-size: 21px;
+    height: 42px;
+    background-color: #f8f9fa;
+    padding: 4px 0px 7px 14px;
+}
+
+.icon{
+    font-size: 12.25px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+    padding-left: 0;
+    border: 1px solid gainsboro;
+
+}
+
+.details{
+    padding: 30px;
+}
+
+.form{
+    height: 30px;
+    width:380px;
+    margin:8px;
+    padding-left: 5px;
+    font-size: 12.25px;
+  
+}
+
+/* .form,i{
+    borborder: 1px solid gainsboro;
+    border-radius: 2.5px;
+} */
+
+.submit{
+    width:56px;
+    height:27px;
+    color:white;
+    background-color: #0d6efd;
+    border-radius:2.8px;
+    text-align: center;
+    margin: 3px 7px 3px 7px;
+    border-color: transparent;
+
+}
+.details p{
+    padding: 2px;
+    padding-right: 400px;
+}
+
+.details-footer{
+    background-color: #f8f9fa;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.goto-page{
+    color:#198754;
+    text-decoration: underline;
+    text-align: right;
+
+
+}
+
+.goto-page a{
+    color:#198754;
+}
+
+/* footer */
+
+
+footer{
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7) ; */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    text-align: center;
+    color:white;
+    height:22px;
+    margin-top:51px;
+    font-size: 12px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    
+  
+}
+
+footer p{
+    padding: 1.4px;
+
+}

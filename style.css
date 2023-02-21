@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f8f9fa ;
+}
+
+.flex{
+    display: flex;
+
+}
+.container{
+    max-width: 1390px;;
+    margin-inline: auto;
+}
+a{
+    text-decoration: none;
+    font-size:14px;
+}
+
+
+
+
+.nav{
+    height: 63px;
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7); */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    color:white;
+    align-items: center;
+    padding: 10px 10px;
+    padding-right: 10px;
+    column-gap:16px;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1030;
+
+}
+.vit-logo img{
+vertical-align: middle;
+height: 50px;
+}
+
+/* .vit-logo{
+   
+} */
+
+
+/* header */
+
+.header{
+    text-align: center;
+    padding: 25px ;
+    margin-top: 50px;
+}
+.header p{
+    font-size: 0.9rem;
+    padding: 15px ;
+}
+.header h1{
+    color:#337ab7
+}
+
+/* login section */
+.align{
+    flex-direction: row;
+}
+.login-section{
+    /* gap:50px; */
+    justify-content: space-between;
+}
+.box{
+    background-color: white;
+    height: 85px;
+    width:320px;
+    border-radius:5px;
+    padding: 10px 10px;
+    gap:100px;
+    /* padding-left:100px; */
+    font-size: 1.25rem;
+    justify-content: space-between;
+    padding: 10px 60px 10px 60px;
+}
+
+.box img{
+    height: 60px;
+}
+
+.icon{
+    height:32px;
+    width:32px;
+    background-color: #0b5ed8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.icon i{
+    justify-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.cardStudent1 {
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(60, 141, 188);
+}
+.cardStudent2{
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: #d4ac0d;
+    color:#d4ac0d !important;
+}
+.cardStudent3 {
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: #18ad4c;
+}
+.cardStudent4 {
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color:#30d2f2 ;
+}
+
+.student p{
+    color:#0d6efd;
+}
+
+.student i{
+    color:white;
+    font-size: small;
+}
+
+.black{
+    color:black !important;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+}
+
+/* info-container */
+
+
+.info-container{
+    justify-content: space-between;
+     margin-top:20px;
+    /* gap:20px; */
+
+}
+
+.info-container p{
+    font-size: 0.75rem;
+    padding:4px;
+
+}
+.info-container hr{
+    border: 1px solid gainsboro;
+}
+.ranking{
+    width: 686px;
+    background-color: white;
+    border-radius: 4px;
+}
+.ranking i{
+    color:#d9ba0b;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.border-info{
+    border-width: 3.5px 0px 0px 0px;
+    border-style: solid;
+    border-color:  #900c3f
+}
+.spotlight{
+    width: 690px;
+    background-color: white;
+    height:160px;
+    border-radius: 4px;
+}
+
+.spotlight-heading{
+    display: flex;
+    justify-content: space-between;
+    color:#900c3f;
+    background-color:#f8f9fa ;
+    font-size: 2rem;
+    height: 50px;
+    text-align: start;
+    vertical-align:middle;
+}
+
+.spotlight i{
+    color:#900c3f;
+    padding-right: 10px;
+    font-size: xx-small;
+}
+
+.spotlight p{
+    padding: 7px;
+}
+
+.spotlight a{
+    text-decoration: underline;
+    color:black
+}
+
+.spotlight a:hover{
+    text-decoration: none;
+}
+
+
+footer{
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7) ; */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    text-align: center;
+    color:white;
+    height:22px;
+    margin-top:51px;
+    font-size: 12px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    
+  
+}
+
+footer p{
+    padding: 1.4px;
+
+}

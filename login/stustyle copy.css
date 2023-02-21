@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f8f9fa ;
+}
+
+.flex{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    font-size:14px;
+}
+
+
+
+
+.nav{
+    height: 63px;
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7); */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    color:white;
+    align-items: center;
+    padding: 10px 10px;
+    padding-right: 10px;
+    column-gap:16px;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1030;
+
+}
+.vit-logo img{
+vertical-align: middle;
+height: 50px;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+
+
+
+/* footer */
+
+
+footer{
+    /* background: linear-gradient(to top right, #0d6efd, #337ab7) ; */
+    background: linear-gradient(130deg, rgba(36, 85, 163, 1) 23%, rgba(52, 151, 219, 1) 52%, rgba(52, 142, 219, 1) 58%, rgba(52, 131, 219, 1) 65%, rgba(40, 116, 166, 1) 74%);
+    text-align: center;
+    color:white;
+    height:22px;
+    margin-top:51px;
+    font-size: 12px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    
+  
+}
+
+footer p{
+    padding: 1.4px;
+
+}
